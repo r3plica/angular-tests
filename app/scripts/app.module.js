@@ -1,5 +1,5 @@
 (function () {
   'use strict';
 
-  angular.module('testsApp', ['testsApp.core']);
+  angular.module('testsApp', ['testsApp.routerConfig', 'testsApp.core']);
 })();

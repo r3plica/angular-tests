@@ -12,5 +12,5 @@
         });
     }
 
-    angular.module('testsApp').config(configureApp);
+    angular.module('testsApp.routerConfig', ['ui.router']).config(configureApp);
 })();
